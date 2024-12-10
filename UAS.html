@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <style>
+      .Picturebg {
+        min-height: 100vh;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: rgba(76, 74, 74, 0.868);
+        font-size: 3em;
+        position: relative;
+      }
+
+      .Picbg {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        min-height: 100%;
+        min-width: 100%;
+        z-index: -1;
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="#"></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="UAS2.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="UAS2.html">Favorites</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="UAS2.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+    <div class="Picturebg">
+      <h1>Welcome to my portfolio</h1>
+      <img src="koushik-chowdavarapu-RWlQMA-7fh4-unsplash.jpg" class="Picbg" />
+    </div>
+  </body>
+</html>
